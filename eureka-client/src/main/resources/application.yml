@@ -1,0 +1,14 @@
+# 设置端口号
+server:
+  port: 8762
+
+# 设置服务名称
+spring:
+  application:
+    name: service-hi
+
+# 设置注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
